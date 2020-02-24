@@ -1,4 +1,4 @@
-package com.minotore.mongoAndSpring.services;
+package com.minotore.iiexercise2.services;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.minotore.iiexercise.dto.BookDTO;
-import com.minotore.iiexercise.dto.StockDTO;
+import com.minotore.iiexercise2.dto.BookDTO;
+import com.minotore.iiexercise2.dto.StockDTO;
 
 @PropertySource("classpath:application.properties")
 @FeignClient(name = "microservice-iiexercise", url = "${fiegn.server.url}")

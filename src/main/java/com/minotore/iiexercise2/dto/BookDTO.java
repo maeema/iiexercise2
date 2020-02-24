@@ -1,4 +1,4 @@
-package com.minotore.iiexercise.dto;
+package com.minotore.iiexercise2.dto;
 
 import java.util.Date;
 

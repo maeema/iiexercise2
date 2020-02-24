@@ -1,8 +1,8 @@
-package com.minotore.mongoAndSpring.services;
+package com.minotore.iiexercise2.services;
 
 import java.util.List;
 
-import com.minotore.mongoAndSpring.document.Sale;
+import com.minotore.iiexercise2.document.Sale;
 
 public interface ISaleService {
 	

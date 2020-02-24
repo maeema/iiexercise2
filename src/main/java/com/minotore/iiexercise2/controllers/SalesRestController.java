@@ -1,4 +1,4 @@
-package com.minotore.mongoAndSpring.controllers;
+package com.minotore.iiexercise2.controllers;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.minotore.mongoAndSpring.document.Sale;
-import com.minotore.mongoAndSpring.services.implementation.SaleService;
+import com.minotore.iiexercise2.document.Sale;
+import com.minotore.iiexercise2.services.implementation.SaleService;
 
 @RestController
 public class SalesRestController {

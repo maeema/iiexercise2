@@ -1,4 +1,4 @@
-package com.minotore.mongoAndSpring.document;
+package com.minotore.iiexercise2.document;
 
 import java.io.Serializable;
 

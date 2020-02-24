@@ -1,14 +1,14 @@
-package com.minotore.mongoAndSpring.services.implementation;
+package com.minotore.iiexercise2.services.implementation;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.minotore.iiexercise.dto.StockDTO;
-import com.minotore.mongoAndSpring.dao.SaleRepository;
-import com.minotore.mongoAndSpring.document.Sale;
-import com.minotore.mongoAndSpring.services.ISaleService;
+import com.minotore.iiexercise2.dao.SaleRepository;
+import com.minotore.iiexercise2.document.Sale;
+import com.minotore.iiexercise2.dto.StockDTO;
+import com.minotore.iiexercise2.services.ISaleService;
 
 @Service
 public class SaleService implements ISaleService{
